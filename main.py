@@ -6,6 +6,12 @@ def main():
     """
     total = 0
 
+    i = 0
+    while i < 10:
+        i += 1
+        total += i
+        print("Current value of i:", i)
+
     ########################################
     # Do not delete the return statement
     ########################################
