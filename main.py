@@ -5,12 +5,12 @@ def main():
     ########################################
     """
     total = 0
+    count = 0
 
-    i = 0
-    while i < 10:
-        i += 1
-        total += i
-        print("Current value of i:", i)
+    while count < 5:
+        user_input = int(input(f"Enter integer #{count + 1}: "))
+        total += user_input
+        count += 1
 
     ########################################
     # Do not delete the return statement
@@ -19,4 +19,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    print(main())  # Print the total so user can see the result
